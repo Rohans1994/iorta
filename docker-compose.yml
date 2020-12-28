@@ -22,19 +22,3 @@ services:
       - './data:/data/db'
     ports:
       - 27037:27017
-
-
-
-  # app:
-  #   container_name: project1
-  #   restart: always
-  #   build: .
-  #   ports:
-  #     - '8081:3000'
-  #   depends_on:
-  #     - database
-  # database:
-  #   container_name: database
-  #   image: mongo
-  #   ports:
-  #     - '27018:27017'

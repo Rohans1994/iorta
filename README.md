@@ -5,3 +5,8 @@ Steps to run the program:
   - run npm install
   - run nodemon
   
+Run through docker:
+  - sudo docker-compose -f docker-compose.yml build
+  - sudo docker-compose -f docker-compose.yml up
+
+
